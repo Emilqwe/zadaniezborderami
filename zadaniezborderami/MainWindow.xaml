@@ -57,21 +57,21 @@
         <Rectangle  Name="Rgreen" Fill = "#FF2A8300" Height="200" Width="200" Margin="194,281,1206,503" Visibility="Hidden" MinWidth="100" MinHeight="100"/>
         
         
-        <ProgressBar Name="Progress" Margin="110,380,133,36" Maximum="6" Height="20" Width="500" />
-        
-        <ScrollBar x:Name="GreenScrool" Margin="274,281,1309,603" Width="10" Height="100" Visibility="Visible" Minimum="1" Value="1" ValueChanged="GreenScrool_ValueChanged"/>
-        <ScrollBar x:Name="PinkScrool" Margin="731,281,852,603" Width="10" Height="100"  Visibility="Visible" Minimum="1" Value="1" ValueChanged="PinkScrool_ValueChanged"/>
-        <ScrollBar x:Name="BlueScrool" Margin="274,519,1309,365" Width="10" Height="100" Visibility="Visible" Minimum="1" Value="1" ValueChanged="BlueScrool_ValueChanged"/>
-        <ScrollBar x:Name="VioletScrool" Margin="1184,289,399,595" Width="10" Height="100" Visibility="Visible" Minimum="1" Value="1" ValueChanged="VioletScrool_ValueChanged"/>
-        <ScrollBar x:Name="YellowScrool" Margin="740,511,844,373" Width="10" Height="100" Visibility="Visible" Minimum="1" Value="1" ValueChanged="YellowScrool_ValueChanged"/>
-        <ScrollBar x:Name="RedScrool" Margin="1176,511,408,373" Width="10" Height="100" Visibility="Visible" Minimum="1" Value="1" ValueChanged="RedScrool_ValueChanged"/>
+        <ProgressBar Name="Progress" Margin="535,711,565,253" Maximum="6" Height="20" Width="500" />
 
-        <Slider x:Name="GreenSlider" Width="80" Height="10" Margin="194,363,1326,611" Visibility="Visible" Minimum="1" Value="1" ValueChanged="GreenSlider_ValueChanged"/>
-        <Slider x:Name="PinkSlider" Width="80" Height="10" Margin="640,363,880,611" Visibility="Visible" Minimum="1" Value="1" ValueChanged="PinkSlider_ValueChanged"/>
-        <Slider x:Name="BlueSlider" Width="80" Height="10" Margin="194,601,1326,373" Visibility="Visible" Minimum="1" Value="1" ValueChanged="BlueSlider_ValueChanged"/>
-        <Slider x:Name="VioletSlider" Width="80" Height="10" Margin="1104,371,416,603" Visibility="Visible" Minimum="1" Value="1" ValueChanged="VioletSlider_ValueChanged"/>
-        <Slider x:Name="YellowSlider" Width="80" Height="10" Margin="655,588,865,386" Visibility="Visible" Minimum="1" Value="1" ValueChanged="YellowSlider_ValueChanged"/>
-        <Slider x:Name="RedSlider" Width="80" Height="10" Margin="1096,596,424,378" Visibility="Visible" Minimum="1" Value="1" ValueChanged="RedSlider_ValueChanged"/>
+        <ScrollBar x:Name="GreenScrool" Margin="264,281,1306,603" Width="10" Height="100" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="GreenScrool_ValueChanged" MinWidth="0" Maximum="10"/>
+        <ScrollBar x:Name="PinkScrool" Margin="720,281,863,603" Width="10" Height="100"  Visibility="Hidden" Minimum="1" Value="1" ValueChanged="PinkScrool_ValueChanged" Maximum="10"/>
+        <ScrollBar x:Name="BlueScrool" Margin="274,519,1309,365" Width="10" Height="100" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="BlueScrool_ValueChanged" Maximum="10"/>
+        <ScrollBar x:Name="VioletScrool" Margin="1184,289,399,595" Width="10" Height="100" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="VioletScrool_ValueChanged" Maximum="10"/>
+        <ScrollBar x:Name="YellowScrool" Margin="740,511,844,373" Width="10" Height="100" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="YellowScrool_ValueChanged" Maximum="10"/>
+        <ScrollBar x:Name="RedScrool" Margin="1176,511,408,373" Width="10" Height="100" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="RedScrool_ValueChanged" Maximum="10"/>
+
+        <Slider x:Name="GreenSlider" Width="80" Height="10" Margin="184,339,1336,635" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="GreenSlider_ValueChanged"/>
+        <Slider x:Name="PinkSlider" Width="80" Height="10" Margin="640,357,880,617" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="PinkSlider_ValueChanged"/>
+        <Slider x:Name="BlueSlider" Width="80" Height="10" Margin="194,601,1326,373" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="BlueSlider_ValueChanged"/>
+        <Slider x:Name="VioletSlider" Width="80" Height="10" Margin="1104,371,416,603" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="VioletSlider_ValueChanged"/>
+        <Slider x:Name="YellowSlider" Width="80" Height="10" Margin="655,588,865,386" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="YellowSlider_ValueChanged"/>
+        <Slider x:Name="RedSlider" Width="80" Height="10" Margin="1096,596,424,378" Visibility="Hidden" Minimum="1" Value="1" ValueChanged="RedSlider_ValueChanged"/>
 
     </Grid>
 </Window>

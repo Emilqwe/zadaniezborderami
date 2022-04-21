@@ -202,6 +202,7 @@ namespace zadaniezborderami
         private void YellowSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             Ryellow.Width += 10;
+            
         }
 
         private void RedScrool_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
