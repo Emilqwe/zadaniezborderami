@@ -67,7 +67,7 @@
         <ScrollBar x:Name="RedScrool" Margin="1176,511,408,373" Width="10" Height="100" Visibility="Visible" Minimum="1" Value="1" ValueChanged="RedScrool_ValueChanged"/>
 
         <Slider x:Name="GreenSlider" Width="80" Height="10" Margin="194,363,1326,611" Visibility="Visible" Minimum="1" Value="1" ValueChanged="GreenSlider_ValueChanged"/>
-        <Slider x:Name="PinkSlider" Width="80" Height="10" Margin="651,363,869,611" Visibility="Visible" Minimum="1" Value="1" ValueChanged="PinkSlider_ValueChanged"/>
+        <Slider x:Name="PinkSlider" Width="80" Height="10" Margin="640,363,880,611" Visibility="Visible" Minimum="1" Value="1" ValueChanged="PinkSlider_ValueChanged"/>
         <Slider x:Name="BlueSlider" Width="80" Height="10" Margin="194,601,1326,373" Visibility="Visible" Minimum="1" Value="1" ValueChanged="BlueSlider_ValueChanged"/>
         <Slider x:Name="VioletSlider" Width="80" Height="10" Margin="1104,371,416,603" Visibility="Visible" Minimum="1" Value="1" ValueChanged="VioletSlider_ValueChanged"/>
         <Slider x:Name="YellowSlider" Width="80" Height="10" Margin="655,588,865,386" Visibility="Visible" Minimum="1" Value="1" ValueChanged="YellowSlider_ValueChanged"/>
